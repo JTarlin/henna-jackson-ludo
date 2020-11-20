@@ -8,4 +8,20 @@
     border: 1px solid black;
     height: 40px;
     width: 40px;
+
+    &__red {
+        background-color: red;
+    }
+
+    &__yellow {
+        background-color: yellow;
+    }
+
+    &__blue {
+        background-color: blue;
+    }
+
+    &__green {
+        background-color: green;
+    }
 }
