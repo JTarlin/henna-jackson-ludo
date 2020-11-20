@@ -6,6 +6,8 @@
     border: 1px solid black;
     height: 40px;
     width: 40px;
+    display: flex;
+
 
     &__red {
         background-color: red;
@@ -26,4 +28,17 @@
     &:hover {
         border: 2px solid black;
     }
+}
+
+.piece {
+    border-radius: 50%;
+    border: 1px solid black;
+    z-index: 1;
+}
+
+.move {
+    z-index: 3;
+    position: absolute;
+    background-color: rgba(pink, 0);
+    border: 3px solid #00ff44;
 }

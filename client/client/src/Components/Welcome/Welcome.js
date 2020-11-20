@@ -8,20 +8,23 @@ function Welcome() {
     //form submit function
     const gameCodeEnter = function(event) {
         event.preventDefault();
-        let code = "";
-        if(event.target.createGame.value) {
-            code = event.target.createGame.value;
-        } else {
+        let code;
+        if(event.target.joinGame.value) {
             code = event.target.joinGame.value;
         }
 
         const linkUrl = `/game/${code}`;
 
-        console.log(linkUrl);
-
         history.push(linkUrl);
-        console.log("this function called")
   }
+
+    const newGame = function(event) {
+      event.preventDefault();
+
+      let code = Math.floor(Math.random()*1000);
+      const linkUrl = `/game/${code}`;
+      history.push(linkUrl);
+    }
 
 
 
@@ -33,10 +36,11 @@ function Welcome() {
             
             <label htmlFor="joinGame" >Join Existing Game:</label>
             <input type="text" name="joinGame" placeholder="Enter game code here"></input>
-            <label htmlFor="createGame">Create New Game:</label>
-            <input type="text" name="createGame" placeholder="Enter game code here"></input>
+            
             <button type="submit">JOIN</button>
         </form>
+        <p>Create New Game:</p>
+        <button onClick={newGame}>CREATE</button>
       </header>
     </div>
   );

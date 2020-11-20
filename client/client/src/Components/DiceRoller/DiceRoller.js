@@ -1,3 +1,5 @@
+import "./DiceRoller.scss";
+
 export default function DiceRoller(props) {
 
     return (
