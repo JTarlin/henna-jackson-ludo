@@ -1,0 +1,24 @@
+{   "gameData": [{"id": "1234",
+    "redPiecePos": [4, 50, 11, -1],
+    "bluePiecePos": [8, -1, 18, -1], 
+    "yellowPiecePos": [14, 20, -1, -1], 
+    "greenPiecePos": [-1, 33, 48, 5], 
+    "currentTurn": 0
+},
+{"id": "2257",
+    "redPiecePos": [14, 13, 12, 10],
+    "bluePiecePos": [8, -1, 18, -1], 
+    "yellowPiecePos": [6, 27, -1, -1], 
+    "greenPiecePos": [-1, 33, 48, -1], 
+    "currentTurn": 3
+},
+{"id": "abc4",
+    "redPiecePos": [17, -1, 57, 57],
+    "bluePiecePos": [8, -1, 18, -1], 
+    "yellowPiecePos": [14, 27, -1, -1], 
+    "greenPiecePos": [-1, 33, 48, -1], 
+    "currentTurn": 2
+}   ]
+        
+
+}
