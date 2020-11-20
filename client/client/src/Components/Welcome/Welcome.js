@@ -19,7 +19,6 @@ function Welcome() {
 
         console.log(linkUrl);
 
-        
         history.push(linkUrl);
         console.log("this function called")
   }
